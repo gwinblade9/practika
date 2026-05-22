@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <form method="POST">
         <div class="form-group"><label>Дата</label><input type="date" name="date" required></div>
         <div class="form-group"><label>Время (ЧЧ:ММ)</label><input type="time" name="time" required></div>
-        <div class="form-group"><label>Количество гостей (1-10)</label><input type="number" name="guests" min="1" max="10" required></div>
+        <div class="form-group"><label>Количество помещений (1-10)</label><input type="number" name="guests" min="1" max="10" required></div>
         <div class="form-group"><label>Контактный телефон</label><input name="phone" placeholder="+7(999)-123-45-67" required></div>
         <button type="submit">Забронировать</button>
     </form>
